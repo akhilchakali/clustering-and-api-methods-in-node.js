@@ -1,0 +1,15 @@
+POST http://localhost:3000/userlogin
+Content-Type: application/json
+
+{
+    "username":"Akhil",
+    "password":"Akhil"
+}
+
+###
+GET http://localhost:3000/set-cookie
+
+###
+GET http://localhost:3000/get-cookie
+Cookie: token=123456
+
